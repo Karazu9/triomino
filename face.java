@@ -6,12 +6,20 @@ public class face {
 	
 	// Constructeur 
 	
-	public face(int x, int y)
+	face(int x, int y)
 	{
-		face = new int[2];
 		face[0]=x;
 		face[1]=y;
 	}
+
+public int getX() {
+	return this.face[0];
+}
+
+public int getY() {
+	return this.face[1];
+}
+
 }
 
 
